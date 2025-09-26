@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter,Route,Routes,Navigate } from 'react-router-dom';
+import { HashRouter as Router,Route,Routes,Navigate } from 'react-router-dom';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
@@ -9,7 +9,7 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <div className="App">
-     <BrowserRouter>
+    <Router>
      <Navbar/>
      <Routes>
       <Route path="/" element={<Home/>}/>
@@ -18,7 +18,8 @@ function App() {
       <Route path="/Contact" element={<Contact/>}/>
         <Route path="*" element={<Navigate to="/" replace />} />
      </Routes>
-     </BrowserRouter>
+     </Router>
+    
     </div>
   );
 }
