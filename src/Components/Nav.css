@@ -1,0 +1,48 @@
+.nav{
+    width: 100%;
+    height: 10vh;
+}
+.nav1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    width: 50%;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link1{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1vh;
+    color: #FF0066;
+}
+.logo p{
+    font-size: 1.5rem;
+    color: #6A0066;
+    text-transform: uppercase;
+     font-family: "Luxurious Roman", serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.link{
+     text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1vh;
+    border-bottom: 3px solid #6A0066;
+    color: #FF0066;
+}
+.link1:hover{
+     border-bottom: 3px solid #934790;
+
+}
+@media (max-width:800px){
+    nav{
+        width: 60%;
+    }
+
+}

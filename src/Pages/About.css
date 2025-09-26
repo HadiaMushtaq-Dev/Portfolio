@@ -1,0 +1,153 @@
+.about{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about1{
+    width: 80%;
+
+   text-align: center;
+}
+.about1 h2,.about11 h2{
+    font-size: 4rem;
+   
+   
+    background-image: linear-gradient(45deg, #FF0066,#934790);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  -webkit-text-fill-color: transparent; 
+}
+.about1 p,.about11 p{
+    
+    font-size: 1.5rem;
+    color: #6A0066;
+    line-height: 50px;
+}
+.about2 img{
+    width: 3.5vw;
+    margin: 2vh;
+}
+img{
+    width: 100%;
+}
+.ct{
+    display: flex;
+    
+}
+.about11{
+ width: 80%;
+}
+.about11 h2{
+    text-align: center;
+}
+.animate h2{
+    animation: blink 2s linear forwards 2;
+}
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.home{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+.home1{
+    width: 90%;
+    margin:5vh  auto;
+    display: flex;
+ 
+     align-items: center; 
+     justify-content: space-between;
+}
+.home1 h1{
+  
+   font-size: 6rem;
+    background-image: linear-gradient(45deg,#6A0066, #FF0066);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  color: transparent;
+  -webkit-text-fill-color: transparent; 
+}
+.home1 h2{
+   color: #FF0066;
+   font-size: 2rem;
+}
+.home1 p{
+     font-size: 1.5rem;
+     color: #934790;
+     margin-top: 10vh;
+}
+.home1 img{
+   width: 100%;
+
+}
+.cont{
+    width: 60%;
+    margin: auto;
+    text-align:justify;
+}
+.img{
+    width: 20%;
+    border: 4px solid rgb(212, 185, 30);
+    border-radius: 50%;
+    padding: 2vh;
+    overflow: hidden;
+    margin: auto;
+    
+}
+@media (max-width:1200px) {
+    .home h1{
+        font-size: 3.5rem;
+    }
+    .home h2{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:980px){
+    .home1{
+        display: block;
+        text-align: center;
+        margin: 7vh auto;
+    }
+    .cont{
+        margin: auto;
+        text-align: center;
+    }
+    .img{
+        margin: auto;
+        width: 15%;
+    }
+}
+@media(max-width:1050px){
+         .about1 h2,.about11 h2{
+            font-size: 3rem;
+         }
+         .about1 p,.about11 p{
+             font-size: 1.2rem;
+             line-height: 40px;
+         }
+}
+@media(max-width:750px){
+         .about1 h2,.about11 h2{
+            font-size: 2.5rem;
+         }
+      
+         
+}
