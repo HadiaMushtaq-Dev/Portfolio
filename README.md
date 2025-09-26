@@ -22,4 +22,4 @@ It includes sections like Home, About, Projects, and Contact.
 ## How to Run Locally
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/Portfolio.git
+   git clone https://HadiaMushtaq-Dev.github.io/Portfolio
