@@ -8,7 +8,8 @@ It includes sections like Home, About, Projects, and Contact.
 - Home page with introduction  
 - About section with details about me  
 - Projects section showcasing sample work  
-- Contact section  
+- Contact section 
+- Deployed on GitHub Pages 
 
 ##  Built With
 - React  
@@ -23,3 +24,6 @@ It includes sections like Home, About, Projects, and Contact.
 1. Clone the repository  
    ```bash
    git clone https://HadiaMushtaq-Dev.github.io/Portfolio
+
+##  Live Preview
+   [View Live](https://hadiamushtaq-dev.github.io/Portfolio/)
